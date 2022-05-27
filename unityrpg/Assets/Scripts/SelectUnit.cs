@@ -17,6 +17,11 @@ public class SelectUnit : MonoBehaviour {
 			this.actionsMenu = GameObject.Find ("ActionsMenu");
 			this.enemyUnitsMenu = GameObject.Find ("EnemyUnitsMenu");
 		}
+		else if (scene.name == "BattleForest")
+        {
+			this.actionsMenu = GameObject.Find("ActionsMenu");
+			this.enemyUnitsMenu = GameObject.Find("EnemyUnitsMenu");
+		}
 	}
 
 	public void selectCurrentUnit(GameObject unit) {
