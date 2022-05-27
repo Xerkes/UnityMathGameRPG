@@ -12,6 +12,8 @@ public class TurnSystem : MonoBehaviour {
 
 	public GameObject enemyEncounter;
 
+	public string previousScene;
+
 	[SerializeField]
 	private GameObject actionsMenu, enemyUnitsMenu;
 
@@ -24,6 +26,9 @@ public class TurnSystem : MonoBehaviour {
 	public int CorrectAnswer;
 	public int WrongAnswer;
 	public int correctButtonIndex;
+
+    public int condition;
+    public bool random;
 
 
 
@@ -58,11 +63,33 @@ public class TurnSystem : MonoBehaviour {
 
 	public void nextTurn() {
 		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
-		if (remainingEnemyUnits.Length == 0) {
+		if (remainingEnemyUnits.Length == 0) {		
 			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
-			SceneManager.LoadScene ("Town");
-		}
-
+			if (previousScene == "Forest")
+            {
+				SceneManager.LoadScene("Forest");
+			}
+			else if (previousScene == "Jungle")
+            {
+				SceneManager.LoadScene("Jungle");
+			}
+			else if (previousScene == "Desert")
+			{
+				SceneManager.LoadScene("Desert");
+			}
+			else if (previousScene == "Snow")
+			{
+				SceneManager.LoadScene("Snow");
+			}
+			else if (previousScene == "Wasteland")
+			{
+				SceneManager.LoadScene("Wasteland");
+			}
+			else
+            {
+				SceneManager.LoadScene ("Town");
+            }	
+		} 
 		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");
 		if (remainingPlayerUnits.Length == 0) {
 			SceneManager.LoadScene("Title");
@@ -111,42 +138,48 @@ public class TurnSystem : MonoBehaviour {
     }
     public void SetQuestions()
     {
-        num1 = Random.Range(0, 10);                          //Set the right side of the question to a random between 0 and 10
-        num2 = Random.Range(0, 10);                          //Set the left side of the question to a random between -10 and 10 
-        Operator = 3;                                       //Set the operator of the question
-        switch (Operator)
-        {
-
-            case 1:                                                     //If operator is 1
-                CorrectAnswer = num1 * num2;                          //Multiply the integers on the left and right 
-                WrongAnswer = CorrectAnswer + Random.Range(-1, 1);     //Add a number between -1 and 1 to the correct answer and set it to the wrong answer        
-                QuestionText.GetComponent<Text>().text = num1.ToString() + "  *  " + num2.ToString() + "  =  ";          //Display the question
-                break;                                                  //Break the switch
-
-
-            case 2:                                                                     //If operator is 2
-                CorrectAnswer = num1 - num2;                                           //Subtract 
-                WrongAnswer = CorrectAnswer + Random.Range(-1, 1);                      //Add a number between -1 and 1 to the correct answer and set it to the wrong answer
-                QuestionText.GetComponent<Text>().text = num1.ToString() + "  -  " + num2.ToString() + "  =  ";               //Display the question
-                break;                                                  //Break the switch
-
-
-            case 3:                                                         //If operator is 3
-                CorrectAnswer = num1 + num2;                               //Add
-                WrongAnswer = CorrectAnswer + Random.Range(-1, 1);          //Add a number between -1 and 1 to the correct answer and set it to the wrong answer
-                QuestionText.GetComponent<Text>().text = num1.ToString() + "  +  " + num2.ToString() + "  =  ";                   //Display the question
-                break;
-
-
-            case 4:                                                         //If operator is 4
-                CorrectAnswer = num1 / num2;                               //Division
-                WrongAnswer = CorrectAnswer + Random.Range(-1, 1);          //Add a number between -1 and 1 to the correct answer and set it to the wrong answer
-                QuestionText.GetComponent<Text>().text = num1.ToString() + "  /  " + num2.ToString() + "  =  ";                   //Display the question
-                break;   //Break the switch
-
-            default:
-                break;
+        num1 = Random.Range(0, 20);                          //Set the right side of the question to a random between 0 and 10
+        num2 = Random.Range(0, 20);
+        Operator = condition;
+        if (random == true) {
+            Operator = Random.Range(1, 4);
         }
+                                                            //Set the left side of the question to a random between -10 and 10                                       //Set the operator of the question
+            switch (Operator)
+            {
+
+                case 1:                                                     //If operator is 1
+                    CorrectAnswer = num1 * num2;                          //Multiply the integers on the left and right 
+                    WrongAnswer = CorrectAnswer + Random.Range(-1, 1);     //Add a number between -1 and 1 to the correct answer and set it to the wrong answer        
+                    QuestionText.GetComponent<Text>().text = num1.ToString() + "  *  " + num2.ToString() + "  =  ";          //Display the question
+                    break;                                                  //Break the switch
+
+
+                case 2:                                                                     //If operator is 2
+                    CorrectAnswer = num1 - num2;                                           //Subtract 
+                    WrongAnswer = CorrectAnswer + Random.Range(-1, 1);                      //Add a number between -1 and 1 to the correct answer and set it to the wrong answer
+                    QuestionText.GetComponent<Text>().text = num1.ToString() + "  -  " + num2.ToString() + "  =  ";               //Display the question
+                    break;                                                  //Break the switch
+
+
+                case 3:                                                         //If operator is 3
+                    CorrectAnswer = num1 + num2;                               //Add
+                    WrongAnswer = CorrectAnswer + Random.Range(-1, 1);          //Add a number between -1 and 1 to the correct answer and set it to the wrong answer
+                    QuestionText.GetComponent<Text>().text = num1.ToString() + "  +  " + num2.ToString() + "  =  ";                   //Display the question
+                    break;
+
+
+                case 4:                                                         //If operator is 4
+                    CorrectAnswer = num1 / num2;                               //Division
+                    WrongAnswer = CorrectAnswer + Random.Range(-1, 1);          //Add a number between -1 and 1 to the correct answer and set it to the wrong answer
+                    QuestionText.GetComponent<Text>().text = num1.ToString() + "  /  " + num2.ToString() + "  =  ";                   //Display the question
+                    break;   //Break the switch
+
+                default:
+                    break;
+            }
+        
+        
     }
     public void SetButtonAnswers()
     {

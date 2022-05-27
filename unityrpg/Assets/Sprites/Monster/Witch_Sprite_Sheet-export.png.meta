@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 54508a01ca2b18242ad86ea5bc6fa97f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1598
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa281ef38597444ca4663860ce63803
+      internalID: 1487022639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1598
+        width: 223
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e36cbed279365428e93cc184129f1f
+      internalID: 546105338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_2
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1598
+        width: 224
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c55555c10da3714eaca113de6a7f253
+      internalID: -1511352857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_3
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1598
+        width: 214
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597f1e5dd2983bc4e95959a620a836c1
+      internalID: 114548072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1279
+        width: 224
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d61771ef652a8d409b61586ccd26d3a
+      internalID: -1043401839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_5
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1308
+        width: 203
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabea3bd26b108b41b9ef49f7b1ded89
+      internalID: 191573041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1329
+        width: 204
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a905a879f25b94ba2e0be429195ec9
+      internalID: 319120522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_7
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1288
+        width: 204
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec8714c5e793f44e8cbeaa85dc0a484
+      internalID: 1459177626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_8
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1279
+        width: 214
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18873e4b82a852a4580221142a58f739
+      internalID: 339404086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_9
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1298
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eda08b23d2bbd3479b5c84260ead183
+      internalID: 1441109488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_10
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1318
+        width: 223
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b89255513d98745a9d1e321981de17
+      internalID: -61402754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_11
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 1298
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68240db96104d4c49877ce9ac33abbcd
+      internalID: -141602815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 958
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488b2f3f601078f41930589a14a2ccc5
+      internalID: 1961083934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 958
+        width: 253
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a802ddfd4e0f5124692b418c18a86c9f
+      internalID: -2092213159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_14
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 958
+        width: 223
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f510726ca83b2448652b20b42de5dc
+      internalID: -1783956450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_15
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 958
+        width: 223
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e80c2f073039d74898ef9750cfe5a4e
+      internalID: -1618797447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_16
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 958
+        width: 244
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46062749051a3b4890a86828e1ed521
+      internalID: -518221840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_17
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 958
+        width: 223
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f27ab0f1ed1874e938011f82836cce
+      internalID: -319623332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_18
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 958
+        width: 213
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5f74e0ff6eb1746a2b77d0038a507a
+      internalID: -1906242375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_19
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 998
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6de6c8bd4484048bc848769624e166
+      internalID: 1684616659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_20
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 958
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bac8d31f4657b43817c62de5bb5efd
+      internalID: -2124441249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_21
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 988
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3efc5de6ab7ff4d82e5d287aac00fd
+      internalID: 1937980903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_22
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 638
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb4049645a83a749b8143a24c33c04a
+      internalID: -1964337387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_23
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 638
+        width: 213
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1e03eacd96efa40b090ad2518330d7
+      internalID: 1494836629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_24
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 638
+        width: 213
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713ef872c77a2c54bb4b7789abd94c18
+      internalID: 1901986090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_25
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 638
+        width: 224
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4b3e9d1fd2ebd4f8987a741a33e760
+      internalID: -544919248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 318
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0583fd3367c054c4fa6ef7b8e166c658
+      internalID: 1002937875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_27
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 318
+        width: 213
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb84cfa1c45f6549a478eec93cbaa08
+      internalID: -1331695133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_28
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 318
+        width: 213
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039b37f91b204884a9dedf13144e7571
+      internalID: 40302122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_29
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 318
+        width: 214
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e158818bf1a8b654cb53fa1920eb23ae
+      internalID: 1862647591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_30
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 318
+        width: 204
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63b86389a139e041b32b7835eead11c
+      internalID: 1074460803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_31
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 318
+        width: 204
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8c8dd92c122ba40a0463f89904b3e9
+      internalID: -1305854220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_32
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 318
+        width: 204
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b825e51990ba36447903aa2e6e7143b0
+      internalID: 922239203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_33
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 318
+        width: 224
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68f8796a9f455d4eb22f0bf06d4cd85
+      internalID: 539442517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_34
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 318
+        width: 234
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f377c0caf378c47b3bac60e392bc22
+      internalID: -2065328152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_35
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 318
+        width: 204
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee51a9442c5e604993c5eaa8eb837bc
+      internalID: 589503391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 38
+        width: 263
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd046214c9df14c49833ccdc47baed06
+      internalID: -1554909406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_37
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 28
+        width: 274
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021029ff5b1086343b11c22cc85091fa
+      internalID: -495678666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_38
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 28
+        width: 284
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8344519aa88553542bacf41b99775bd6
+      internalID: 711738657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Sprite_Sheet-export_39
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 28
+        width: 274
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d71d4a21050ce0499ba5be114a2d71c
+      internalID: -1076269363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Witch_Sprite_Sheet-export_0: 1487022639
+      Witch_Sprite_Sheet-export_32: 922239203
+      Witch_Sprite_Sheet-export_23: 1494836629
+      Witch_Sprite_Sheet-export_4: -1043401839
+      Witch_Sprite_Sheet-export_7: 1459177626
+      Witch_Sprite_Sheet-export_6: 319120522
+      Witch_Sprite_Sheet-export_19: 1684616659
+      Witch_Sprite_Sheet-export_35: 589503391
+      Witch_Sprite_Sheet-export_38: 711738657
+      Witch_Sprite_Sheet-export_26: 1002937875
+      Witch_Sprite_Sheet-export_15: -1618797447
+      Witch_Sprite_Sheet-export_36: -1554909406
+      Witch_Sprite_Sheet-export_21: 1937980903
+      Witch_Sprite_Sheet-export_9: 1441109488
+      Witch_Sprite_Sheet-export_30: 1074460803
+      Witch_Sprite_Sheet-export_8: 339404086
+      Witch_Sprite_Sheet-export_16: -518221840
+      Witch_Sprite_Sheet-export_14: -1783956450
+      Witch_Sprite_Sheet-export_10: -61402754
+      Witch_Sprite_Sheet-export_24: 1901986090
+      Witch_Sprite_Sheet-export_34: -2065328152
+      Witch_Sprite_Sheet-export_12: 1961083934
+      Witch_Sprite_Sheet-export_13: -2092213159
+      Witch_Sprite_Sheet-export_20: -2124441249
+      Witch_Sprite_Sheet-export_31: -1305854220
+      Witch_Sprite_Sheet-export_37: -495678666
+      Witch_Sprite_Sheet-export_11: -141602815
+      Witch_Sprite_Sheet-export_27: -1331695133
+      Witch_Sprite_Sheet-export_22: -1964337387
+      Witch_Sprite_Sheet-export_17: -319623332
+      Witch_Sprite_Sheet-export_2: -1511352857
+      Witch_Sprite_Sheet-export_5: 191573041
+      Witch_Sprite_Sheet-export_33: 539442517
+      Witch_Sprite_Sheet-export_1: 546105338
+      Witch_Sprite_Sheet-export_25: -544919248
+      Witch_Sprite_Sheet-export_39: -1076269363
+      Witch_Sprite_Sheet-export_29: 1862647591
+      Witch_Sprite_Sheet-export_28: 40302122
+      Witch_Sprite_Sheet-export_3: 114548072
+      Witch_Sprite_Sheet-export_18: -1906242375
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

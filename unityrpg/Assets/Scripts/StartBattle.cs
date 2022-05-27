@@ -21,10 +21,27 @@ public class StartBattle : MonoBehaviour {
 					{
 			this.gameObject.SetActive(true);
         }
-        else
+		else if (scene.name == "BattleJ")
+		{
+			this.gameObject.SetActive(scene.name == "BattleJ");
+		}
+		else if (scene.name == "BattleD")
+		{
+			this.gameObject.SetActive(scene.name == "BattleD");
+		}
+		else if (scene.name == "BattleS")
+		{
+			this.gameObject.SetActive(scene.name == "BattleS");
+		}
+		else if (scene.name == "BattleW")
+		{
+			this.gameObject.SetActive(scene.name == "BattleW");
+		}
+		else
         {
 			this.gameObject.SetActive(scene.name == "Battle");
 		}
+		
 	}
 
 }

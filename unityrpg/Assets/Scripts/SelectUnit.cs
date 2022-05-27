@@ -17,8 +17,28 @@ public class SelectUnit : MonoBehaviour {
 			this.actionsMenu = GameObject.Find ("ActionsMenu");
 			this.enemyUnitsMenu = GameObject.Find ("EnemyUnitsMenu");
 		}
-		else if (scene.name == "BattleForest")
+		else if (scene.name == "BattleF")
         {
+			this.actionsMenu = GameObject.Find("ActionsMenu");
+			this.enemyUnitsMenu = GameObject.Find("EnemyUnitsMenu");
+		}
+		else if (scene.name == "BattleJ")
+		{
+			this.actionsMenu = GameObject.Find("ActionsMenu");
+			this.enemyUnitsMenu = GameObject.Find("EnemyUnitsMenu");
+		}
+		else if (scene.name == "BattleD")
+		{
+			this.actionsMenu = GameObject.Find("ActionsMenu");
+			this.enemyUnitsMenu = GameObject.Find("EnemyUnitsMenu");
+		}
+		else if (scene.name == "BattleS")
+		{
+			this.actionsMenu = GameObject.Find("ActionsMenu");
+			this.enemyUnitsMenu = GameObject.Find("EnemyUnitsMenu");
+		}
+		else if (scene.name == "BattleW")
+		{
 			this.actionsMenu = GameObject.Find("ActionsMenu");
 			this.enemyUnitsMenu = GameObject.Find("EnemyUnitsMenu");
 		}
