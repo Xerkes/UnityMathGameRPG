@@ -12,6 +12,8 @@ public class TurnSystem : MonoBehaviour {
 
 	public GameObject enemyEncounter;
 
+	public string previousScene;
+
 	[SerializeField]
 	private GameObject actionsMenu, enemyUnitsMenu;
 
@@ -58,11 +60,33 @@ public class TurnSystem : MonoBehaviour {
 
 	public void nextTurn() {
 		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
-		if (remainingEnemyUnits.Length == 0) {
+		if (remainingEnemyUnits.Length == 0) {		
 			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
-			SceneManager.LoadScene ("Town");
-		}
-
+			if (previousScene == "Forest")
+            {
+				SceneManager.LoadScene("Forest");
+			}
+			else if (previousScene == "Jungle")
+            {
+				SceneManager.LoadScene("Jungle");
+			}
+			else if (previousScene == "Desert")
+			{
+				SceneManager.LoadScene("Desert");
+			}
+			else if (previousScene == "Snow")
+			{
+				SceneManager.LoadScene("Snow");
+			}
+			else if (previousScene == "Wasteland")
+			{
+				SceneManager.LoadScene("Wasteland");
+			}
+			else
+            {
+				SceneManager.LoadScene ("Town");
+            }	
+		} 
 		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");
 		if (remainingPlayerUnits.Length == 0) {
 			SceneManager.LoadScene("Title");

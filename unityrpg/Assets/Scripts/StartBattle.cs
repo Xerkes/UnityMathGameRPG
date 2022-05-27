@@ -19,9 +19,31 @@ public class StartBattle : MonoBehaviour {
 			Destroy (this.gameObject);
 		} else if  (scene.name == "BattleF")
 					{
+<<<<<<< Updated upstream
 			this.gameObject.SetActive(true);
         }
         else
+=======
+			this.gameObject.SetActive(scene.name == "BattleF");
+        }
+		else if (scene.name == "BattleJ")
+		{
+			this.gameObject.SetActive(scene.name == "BattleJ");
+		}
+		else if (scene.name == "BattleD")
+		{
+			this.gameObject.SetActive(scene.name == "BattleD");
+		}
+		else if (scene.name == "BattleS")
+		{
+			this.gameObject.SetActive(scene.name == "BattleS");
+		}
+		else if (scene.name == "BattleW")
+		{
+			this.gameObject.SetActive(scene.name == "BattleW");
+		}
+		else
+>>>>>>> Stashed changes
         {
 			this.gameObject.SetActive(scene.name == "Battle");
 		}

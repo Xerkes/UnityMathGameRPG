@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream:unityrpg/Assets/Scenes/1. Forest/BattleF.unity.meta
 guid: f6d388c6a8b8d8c44bfd31a9ee41ae05
 timeCreated: 1484138317
@@ -8,11 +7,6 @@ licenseType: Free
 guid: 48882aa2576237e48b80a73d9a7f39d7
 folderAsset: yes
 >>>>>>> Stashed changes:unityrpg/Assets/Sprites/Monster.meta
-=======
-guid: f6d388c6a8b8d8c44bfd31a9ee41ae05
-timeCreated: 1484138317
-licenseType: Free
->>>>>>> Stashed changes
 DefaultImporter:
   userData: 
   assetBundleName: 

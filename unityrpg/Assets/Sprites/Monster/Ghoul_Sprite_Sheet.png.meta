@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 5d27bfedd6392a74f90ed41b6391f5a1
+guid: e0a79ea96a23fb645bfad419c5d192aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -29,7 +29,7 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
@@ -62,7 +62,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dino_0
+      name: Ghoul_Sprite_Sheet_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 357
-        width: 109
-        height: 49
+        x: 3
+        y: 128
+        width: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,188 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5951164132fa0c343890f4c17865b63c
-      internalID: -641344398
+      spriteID: 7eef393fae31d9b4893444bcdcee7cf7
+      internalID: -292062068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_1
+      name: Ghoul_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 128
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ec0bcdddcda914f8d0465f8e8887b0
+      internalID: -1283483915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghoul_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 128
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfe1bcd525946e439f7e40a9b5ea880
+      internalID: 1009439913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghoul_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 128
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbe29b0eb0c96e45a100e69c1f8e3c6
+      internalID: -1198924948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghoul_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 96
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796a1bea76280c14ca89f1ad37cefb9b
+      internalID: 1740451011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghoul_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 98
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767648b9e49f6ac49b5778dcd9c7b251
+      internalID: 1198769717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghoul_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cca64bf55e3114c8d0e6e6277c639b
+      internalID: -688723136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghoul_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c0d1223b8161441b37d507e44f5081
+      internalID: -1121201867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghoul_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 96
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29982415bd0b3fe4ca820ac41675dba2
+      internalID: -1190546820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghoul_Sprite_Sheet_9
       rect:
         serializedVersion: 2
         x: 163
-        y: 357
-        width: 112
-        height: 48
+        y: 98
+        width: 26
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45b981e4f0f8acc44a8aa9702493fa2e
-      internalID: -1820287187
+      spriteID: 0fd29a1822c1bd54bba159bc9bbc5029
+      internalID: 744188964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_2
+      name: Ghoul_Sprite_Sheet_10
       rect:
         serializedVersion: 2
-        x: 318
-        y: 357
-        width: 111
-        height: 48
+        x: 194
+        y: 99
+        width: 27
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4799702ee43ef054fa8ee7ab246a33c4
-      internalID: 1411869803
+      spriteID: 72f6e23b737325f4c88d7b42afb8d56c
+      internalID: 397842154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_3
+      name: Ghoul_Sprite_Sheet_11
       rect:
         serializedVersion: 2
-        x: 472
-        y: 357
-        width: 111
-        height: 49
+        x: 226
+        y: 98
+        width: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +361,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 161f483f843efe14abfbb8da74b1ade3
-      internalID: 678750936
+      spriteID: c5e4252106ee2494181c1c66cdef5c6c
+      internalID: 646862693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_4
+      name: Ghoul_Sprite_Sheet_12
       rect:
         serializedVersion: 2
-        x: 628
-        y: 357
-        width: 109
-        height: 49
+        x: 3
+        y: 64
+        width: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +382,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 169e6e76700206a45a6147281cb3f731
-      internalID: 634973786
+      spriteID: 4606ce7e4a3418c4eab99015b89448e9
+      internalID: -1450401459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_5
+      name: Ghoul_Sprite_Sheet_13
       rect:
         serializedVersion: 2
-        x: 344
-        y: 283
-        width: 73
-        height: 62
+        x: 35
+        y: 64
+        width: 26
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +403,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd5275967eccfc1488be39bf8ef3c25f
-      internalID: 398784243
+      spriteID: 51777ae41508484439179ff4b2aadbe0
+      internalID: -399753316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_6
+      name: Ghoul_Sprite_Sheet_14
       rect:
         serializedVersion: 2
-        x: 512
-        y: 294
-        width: 58
-        height: 59
+        x: 66
+        y: 64
+        width: 27
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +424,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8171e5526c29a5d499e82510b88c1543
-      internalID: 1949566328
+      spriteID: 87748f9d313926842bde49823f3a7060
+      internalID: 45239530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_7
+      name: Ghoul_Sprite_Sheet_15
       rect:
         serializedVersion: 2
-        x: 666
-        y: 294
-        width: 58
-        height: 52
+        x: 97
+        y: 64
+        width: 27
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +445,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 200b37b89c79b2744a1c22958aa14428
-      internalID: -1597657249
+      spriteID: 53fbf506ab050394e9122fc3e42b1588
+      internalID: -1559773933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_8
+      name: Ghoul_Sprite_Sheet_16
       rect:
         serializedVersion: 2
-        x: 13
-        y: 239
-        width: 104
-        height: 46
+        x: 132
+        y: 64
+        width: 28
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +466,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddfc7b55a86424941b3720a5f522aac1
-      internalID: -382567375
+      spriteID: ffae6e651cb21e24aabad6f319dc7581
+      internalID: -1089724239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_9
+      name: Ghoul_Sprite_Sheet_17
       rect:
         serializedVersion: 2
-        x: 167
-        y: 239
-        width: 103
-        height: 45
+        x: 164
+        y: 64
+        width: 26
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +487,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd609394e0d88084d987bda9df972b92
-      internalID: 2055737021
+      spriteID: 2009b3b74ef958a4799907fc38427566
+      internalID: 1462493118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_10
+      name: Ghoul_Sprite_Sheet_18
       rect:
         serializedVersion: 2
-        x: 62
-        y: 119
-        width: 84
-        height: 79
+        x: 3
+        y: 32
+        width: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,20 +508,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5db056cde614bf74283a47989c410c80
-      internalID: 385820980
+      spriteID: 965a28b55adb0ce4e88b6918b0b9e25a
+      internalID: -745221075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_11
+      name: Ghoul_Sprite_Sheet_19
       rect:
         serializedVersion: 2
-        x: 253
-        y: 121
-        width: 54
-        height: 52
+        x: 35
+        y: 32
+        width: 26
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +529,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c896ed613fee87643ac06a14e67bd22a
-      internalID: -1790176914
+      spriteID: 3028e979fb3fa5f409139b4c739599a4
+      internalID: 809586367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_12
+      name: Ghoul_Sprite_Sheet_20
       rect:
         serializedVersion: 2
-        x: 384
-        y: 135
-        width: 54
-        height: 52
+        x: 68
+        y: 32
+        width: 25
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,20 +550,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b8cf01f5e4e8654b976c79ce294285a
-      internalID: 1737873351
+      spriteID: 947779e6dc60b8347804854af8241d89
+      internalID: -1475299172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_13
+      name: Ghoul_Sprite_Sheet_21
       rect:
         serializedVersion: 2
-        x: 526
-        y: 137
-        width: 54
-        height: 52
+        x: 99
+        y: 32
+        width: 26
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,20 +571,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77acb32f726866c4d8708f1f5caf9f31
-      internalID: -569830856
+      spriteID: 59d849e06c0d3d14884f275ea98321bd
+      internalID: -669696611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_14
+      name: Ghoul_Sprite_Sheet_22
       rect:
         serializedVersion: 2
-        x: 618
-        y: 121
-        width: 95
-        height: 70
+        x: 3
+        y: 0
+        width: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +592,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81589c9e9916d56408a57f33d7a040b5
-      internalID: 1565422004
+      spriteID: 571b4204f95d713489089d778e24622b
+      internalID: 303913694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_15
+      name: Ghoul_Sprite_Sheet_23
       rect:
         serializedVersion: 2
-        x: 1
-        y: 3
-        width: 95
-        height: 70
+        x: 35
+        y: 0
+        width: 26
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b95100365c42af4190ff43e9b7c1df6
-      internalID: -467256666
+      spriteID: 804d63b6218e4b244ba0d707b29d1daa
+      internalID: -1129137179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_16
+      name: Ghoul_Sprite_Sheet_24
       rect:
         serializedVersion: 2
-        x: 173
-        y: 1
-        width: 116
-        height: 62
+        x: 68
+        y: 0
+        width: 24
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,20 +634,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1b694d758266be4fa54a6f65700f747
-      internalID: 1843986546
+      spriteID: 79938b4d583497640a7b1c30cd85ae79
+      internalID: -1710529502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_17
+      name: Ghoul_Sprite_Sheet_25
       rect:
         serializedVersion: 2
-        x: 326
-        y: 1
-        width: 116
-        height: 62
+        x: 100
+        y: 0
+        width: 25
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,20 +655,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf56ec22096de44796f294874546344
-      internalID: 44335918
+      spriteID: 6dd80a851bde8734eae48038694bac2a
+      internalID: 2067413311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_18
+      name: Ghoul_Sprite_Sheet_26
       rect:
         serializedVersion: 2
-        x: 487
-        y: 3
-        width: 89
-        height: 72
+        x: 132
+        y: 0
+        width: 26
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,20 +676,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5740e92400361a468c6a89c319d7c33
-      internalID: 1016978987
+      spriteID: c2d2be6f9f8cbf64ab43085cded903fe
+      internalID: 862499986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dino_19
+      name: Ghoul_Sprite_Sheet_27
       rect:
         serializedVersion: 2
-        x: 640
-        y: 4
-        width: 89
-        height: 72
+        x: 163
+        y: 0
+        width: 28
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,8 +697,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 759b6aa44c0e54c43ac85dd03588d7e5
-      internalID: -422442477
+      spriteID: 740e52334bc5b674e9b286ff7dceef9e
+      internalID: -611295602
       vertices: []
       indices: 
       edges: []
@@ -546,26 +714,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dino_14: 1565422004
-      dino_2: 1411869803
-      dino_4: 634973786
-      dino_3: 678750936
-      dino_15: -467256666
-      dino_17: 44335918
-      dino_1: -1820287187
-      dino_16: 1843986546
-      dino_19: -422442477
-      dino_10: 385820980
-      dino_0: -641344398
-      dino_12: 1737873351
-      dino_18: 1016978987
-      dino_6: 1949566328
-      dino_13: -569830856
-      dino_7: -1597657249
-      dino_8: -382567375
-      dino_5: 398784243
-      dino_11: -1790176914
-      dino_9: 2055737021
+      Ghoul_Sprite_Sheet_23: -1129137179
+      Ghoul_Sprite_Sheet_4: 1740451011
+      Ghoul_Sprite_Sheet_10: 397842154
+      Ghoul_Sprite_Sheet_11: 646862693
+      Ghoul_Sprite_Sheet_0: -292062068
+      Ghoul_Sprite_Sheet_17: 1462493118
+      Ghoul_Sprite_Sheet_24: -1710529502
+      Ghoul_Sprite_Sheet_5: 1198769717
+      Ghoul_Sprite_Sheet_14: 45239530
+      Ghoul_Sprite_Sheet_18: -745221075
+      Ghoul_Sprite_Sheet_25: 2067413311
+      Ghoul_Sprite_Sheet_26: 862499986
+      Ghoul_Sprite_Sheet_8: -1190546820
+      Ghoul_Sprite_Sheet_27: -611295602
+      Ghoul_Sprite_Sheet_20: -1475299172
+      Ghoul_Sprite_Sheet_2: 1009439913
+      Ghoul_Sprite_Sheet_6: -688723136
+      Ghoul_Sprite_Sheet_7: -1121201867
+      Ghoul_Sprite_Sheet_15: -1559773933
+      Ghoul_Sprite_Sheet_19: 809586367
+      Ghoul_Sprite_Sheet_9: 744188964
+      Ghoul_Sprite_Sheet_1: -1283483915
+      Ghoul_Sprite_Sheet_16: -1089724239
+      Ghoul_Sprite_Sheet_3: -1198924948
+      Ghoul_Sprite_Sheet_13: -399753316
+      Ghoul_Sprite_Sheet_22: 303913694
+      Ghoul_Sprite_Sheet_21: -669696611
+      Ghoul_Sprite_Sheet_12: -1450401459
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
