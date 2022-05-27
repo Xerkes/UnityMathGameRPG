@@ -17,7 +17,12 @@ public class StartBattle : MonoBehaviour {
 		if (scene.name == "Title") {
 			SceneManager.sceneLoaded -= OnSceneLoaded;
 			Destroy (this.gameObject);
-		} else {
+		} else if  (scene.name == "BattleF")
+					{
+			this.gameObject.SetActive(true);
+        }
+        else
+        {
 			this.gameObject.SetActive(scene.name == "Battle");
 		}
 	}
